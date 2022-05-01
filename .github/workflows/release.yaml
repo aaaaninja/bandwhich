@@ -29,10 +29,10 @@ jobs:
     strategy:
       matrix:
         build:
-          - linux glib x64
-          - linux musl x64
-          - macos x64
           - win-msvc x64
+#           - linux glib x64
+#           - linux musl x64
+#           - macos x64
         include:
           - build: linux glib x64
             os: ubuntu-18.04
